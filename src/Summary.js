@@ -27,7 +27,7 @@ class Summary extends React.Component {
                     <h4>{new Date(currentDate).toDateString()}</h4>
                 </div>
                 <div className="TotalDeaths">
-                <h3>New Deaths</h3>
+                <h3>New Recovered</h3>
                     <h2>{nf.format(summary.TotalDeaths)
                         }</h2>
                     <h4>{new Date(currentDate).toDateString()}</h4>
